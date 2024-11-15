@@ -1,0 +1,2652 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.3-Lima" saveUserFull="Dominykas Sinkevicius" saveUser="Dominykas" projectname="" saveDateTime="2024-11-15T13:08:33">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+      <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1304</srsid>
+      <srid>3346</srid>
+      <authid>EPSG:3346</authid>
+      <description>LKS94 / Lithuania TM</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <elevation-shading-renderer light-altitude="45" hillshading-is-active="0" edl-is-active="1" edl-strength="1000" edl-distance-unit="0" is-active="0" edl-distance="0.5" hillshading-z-factor="1" combined-method="0" light-azimuth="315" hillshading-is-multidirectional="0"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer patch_size="-1,-1" id="savart_export_df37c848_1349_466f_a776_6513badf5b8f" legend_exp="" source="service='qgis_server_docker' sslmode=disable key='id' srid=3346 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;savart_export&quot; (geom)" legend_split_behavior="0" expanded="1" name="savart_export" providerKey="postgres" checked="Qt::Checked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>savart_export_df37c848_1349_466f_a776_6513badf5b8f</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" self-snapping="0" enabled="0" minScale="0" type="1" tolerance="12" scaleDependencyMode="0" intersection-snapping="0" mode="2" maxScale="0">
+    <individual-layer-settings>
+      <layer-setting id="savart_export_df37c848_1349_466f_a776_6513badf5b8f" enabled="0" minScale="0" type="1" tolerance="12" units="1" maxScale="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>305445.9353874996304512</xmin>
+      <ymin>5971155.68896999955177307</ymin>
+      <xmax>673508.35791250038892031</xmax>
+      <ymax>6261433.61243000067770481</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>1304</srsid>
+        <srid>3346</srid>
+        <authid>EPSG:3346</authid>
+        <description>LKS94 / Lithuania TM</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="savart_export" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="savart_export_df37c848_1349_466f_a776_6513badf5b8f"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <main-annotation-layer minScale="1e+08" refreshOnNotifyMessage="" type="annotation" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" legendPlaceholderImage="" styleCategories="AllStyleCategories" autoRefreshEnabled="0" maxScale="0">
+    <id>Annotations_7dff571e_4315_41f4_885d_d704fc161c32</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>1304</srsid>
+        <srid>3346</srid>
+        <authid>EPSG:3346</authid>
+        <description>LKS94 / Lithuania TM</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer symbologyReferenceScale="-1" refreshOnNotifyMessage="" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0" legendPlaceholderImage="" simplifyLocal="1" simplifyMaxScale="1" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" readOnly="0" simplifyAlgorithm="0" minScale="100000000" simplifyDrawingHints="0" styleCategories="AllStyleCategories" autoRefreshTime="0" geometry="Point" wkbType="Point">
+      <extent>
+        <xmin>314209.32639999967068434</xmin>
+        <ymin>5978067.06809999980032444</ymin>
+        <xmax>664744.96690000034868717</xmax>
+        <ymax>6254522.23330000042915344</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>20.99093867305010974</xmin>
+        <ymin>53.90692198235920074</ymin>
+        <xmax>26.66864970691985093</xmax>
+        <ymax>56.42397685472954549</ymax>
+      </wgs84extent>
+      <id>savart_export_df37c848_1349_466f_a776_6513badf5b8f</id>
+      <datasource>service='qgis_server_docker' sslmode=disable key='id' srid=3346 type=Point checkPrimaryKeyUnicity='1' table="public"."savart_export" (geom)</datasource>
+      <shortname>landfill_data</shortname>
+      <title>Sąvartynų duomenys</title>
+      <abstract>Sąvartynų duomenys iš PTŽ duomenų rinkinio, peržiūrėtas 2020m. Duomenys apie sąvartyno filtratą, jo pavojungumą aplinkai bei sunkiųjų metalų kiekius.</abstract>
+      <keywordList>
+        <value>savartynai</value>
+        <value>atliekos</value>
+        <value>tarsa</value>
+      </keywordList>
+      <dataUrl format="">https://data.gov.lt/datasets/1330/</dataUrl>
+      <layername>savart_export</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1304</srsid>
+          <srid>3346</srid>
+          <authid>EPSG:3346</authid>
+          <description>LKS94 / Lithuania TM</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+            <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>1304</srsid>
+            <srid>3346</srid>
+            <authid>EPSG:3346</authid>
+            <description>LKS94 / Lithuania TM</description>
+            <projectionacronym>tmerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxy="0" maxx="0" dimensions="2" crs="EPSG:3346" maxz="0" minz="0" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" enabled="0" endField="" limitMode="0" durationField="" fixedDuration="0" mode="0" startExpression="" endExpression="" durationUnit="min" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation zscale="1" clamping="Terrain" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" zoffset="0" extrusion="0" extrusionEnabled="0" symbology="Line" respectLayerSymbol="1" binding="Centroid">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" type="line" alpha="1" name="" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{97d434a3-6cd3-473e-9694-cfbda6eb628f}" locked="0" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="164,113,88,255" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" type="fill" alpha="1" name="" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{eb83a008-5158-4360-98bd-4a76c65086f8}" locked="0" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="164,113,88,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="117,81,63,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{2a74ad4c-2a33-42c1-9d17-279f825dda34}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="164,113,88,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="117,81,63,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 enableorderby="0" referencescale="-1" type="graduatedSymbol" attr="user_techn" graduatedMethod="GraduatedSize" symbollevels="0" forceraster="0">
+        <ranges>
+          <range render="true" symbol="0" lower="1.000000000000000" label="1 - 10" upper="10.000000000000000"/>
+          <range render="true" symbol="1" lower="10.000000000000000" label="10 - 20" upper="20.000000000000000"/>
+          <range render="true" symbol="2" lower="20.000000000000000" label="20 - 40" upper="40.000000000000000"/>
+          <range render="true" symbol="3" lower="40.000000000000000" label="40 - 60" upper="60.000000000000000"/>
+          <range render="true" symbol="4" lower="60.000000000000000" label="60 - 200" upper="200.000000000000000"/>
+        </ranges>
+        <symbols>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="0" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="1" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="1" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="2.75" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="2" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="4.5" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="3" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="6.25" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="4" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="8" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" name="0" frame_rate="10" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{0c188207-a1c7-46ac-834e-c916e781df07}" locked="0" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="142,95,0,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="circle" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="2" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <classificationMethod id="Quantile">
+          <symmetricMode enabled="0" astride="0" symmetrypoint="0"/>
+          <labelFormat format="%1 - %2" labelprecision="1" trimtrailingzeroes="0"/>
+          <parameters>
+            <Option/>
+          </parameters>
+          <extraInformation/>
+        </classificationMethod>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory labelPlacementMethod="XHeight" backgroundAlpha="255" spacingUnit="MM" backgroundColor="#ffffff" rotationOffset="270" scaleBasedVisibility="0" diagramOrientation="Up" direction="0" spacing="5" minScaleDenominator="0" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" height="15" penColor="#000000" penWidth="0" penAlpha="255" barWidth="5" scaleDependency="Area" opacity="1" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" width="15" showAxis="1" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" enabled="0">
+          <fontProperties style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          <attribute color="#000000" colorOpacity="1" field="" label=""/>
+          <axisSymbol>
+            <symbol clip_to_extent="1" type="line" alpha="1" name="" frame_rate="10" force_rhr="0" is_animated="0">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" id="{64f9cd38-cdd4-4064-b134-7ed011012184}" locked="0" pass="0" class="SimpleLine">
+                <Option type="Map">
+                  <Option type="QString" value="0" name="align_dash_pattern"/>
+                  <Option type="QString" value="square" name="capstyle"/>
+                  <Option type="QString" value="5;2" name="customdash"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="customdash_unit"/>
+                  <Option type="QString" value="0" name="dash_pattern_offset"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                  <Option type="QString" value="0" name="draw_inside_polygon"/>
+                  <Option type="QString" value="bevel" name="joinstyle"/>
+                  <Option type="QString" value="35,35,35,255" name="line_color"/>
+                  <Option type="QString" value="solid" name="line_style"/>
+                  <Option type="QString" value="0.26" name="line_width"/>
+                  <Option type="QString" value="MM" name="line_width_unit"/>
+                  <Option type="QString" value="0" name="offset"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="offset_unit"/>
+                  <Option type="QString" value="0" name="ring_filter"/>
+                  <Option type="QString" value="0" name="trim_distance_end"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                  <Option type="QString" value="0" name="trim_distance_start"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                  <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                  <Option type="QString" value="0" name="use_custom_dash"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" showAll="1" priority="0" placement="0" linePlacementFlags="18" dist="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="fid_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="loc_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="status">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="score">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="match_type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="match_addr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="longlabel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="shortlabel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addr_type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="placename">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="place_addr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="phone">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="url">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="rank">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addbldg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addnum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addnumfrom">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addnumto">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="addrange">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="side">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="stpredir">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="stpretype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="stname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="sttype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="stdir">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bldgtype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bldgname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="leveltype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="levelname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="unittype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="unitname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="subaddr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="staddr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="block">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="sector">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nbrhd">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="district">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="city">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="metroarea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="subregion">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="region">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="regionabbr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="territory">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="zone">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="postal">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="postalext">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="country">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="langcode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="x">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="displayxma">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="displayyma">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="xminmap">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="xmaxmap">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="yminmap">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ymaxmap">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exinfo">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="in_singlel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_adres">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_koord">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_koo_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_ptž_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_veikl">
+          <editWidget type="DateTime">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="true" name="allow_null"/>
+                <Option type="bool" value="true" name="calendar_popup"/>
+                <Option type="QString" value="yyyy-MM-dd" name="display_format"/>
+                <Option type="QString" value="yyyy-MM-dd" name="field_format"/>
+                <Option type="bool" value="false" name="field_format_overwrite"/>
+                <Option type="bool" value="false" name="field_iso_format"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_vei_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_padė">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_techn">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_dirvo">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_pože">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_pavir">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_tec_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_dir_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_po_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="user_pav_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="uzdarytas_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="uzdarytopl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ptzbuksubt">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vandens_te">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ph">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bendras_ki">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="kadmis_µg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="švinas_µ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="chromas_µ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cinkas_µg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="varis_µg_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nikelis_µ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gyvsidabri">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+        <alias field="fid_" index="1" name=""/>
+        <alias field="loc_name" index="2" name=""/>
+        <alias field="status" index="3" name=""/>
+        <alias field="score" index="4" name=""/>
+        <alias field="match_type" index="5" name=""/>
+        <alias field="match_addr" index="6" name=""/>
+        <alias field="longlabel" index="7" name=""/>
+        <alias field="shortlabel" index="8" name=""/>
+        <alias field="addr_type" index="9" name=""/>
+        <alias field="type" index="10" name=""/>
+        <alias field="placename" index="11" name=""/>
+        <alias field="place_addr" index="12" name=""/>
+        <alias field="phone" index="13" name=""/>
+        <alias field="url" index="14" name=""/>
+        <alias field="rank" index="15" name=""/>
+        <alias field="addbldg" index="16" name=""/>
+        <alias field="addnum" index="17" name=""/>
+        <alias field="addnumfrom" index="18" name=""/>
+        <alias field="addnumto" index="19" name=""/>
+        <alias field="addrange" index="20" name=""/>
+        <alias field="side" index="21" name=""/>
+        <alias field="stpredir" index="22" name=""/>
+        <alias field="stpretype" index="23" name=""/>
+        <alias field="stname" index="24" name=""/>
+        <alias field="sttype" index="25" name=""/>
+        <alias field="stdir" index="26" name=""/>
+        <alias field="bldgtype" index="27" name=""/>
+        <alias field="bldgname" index="28" name=""/>
+        <alias field="leveltype" index="29" name=""/>
+        <alias field="levelname" index="30" name=""/>
+        <alias field="unittype" index="31" name=""/>
+        <alias field="unitname" index="32" name=""/>
+        <alias field="subaddr" index="33" name=""/>
+        <alias field="staddr" index="34" name=""/>
+        <alias field="block" index="35" name=""/>
+        <alias field="sector" index="36" name=""/>
+        <alias field="nbrhd" index="37" name=""/>
+        <alias field="district" index="38" name=""/>
+        <alias field="city" index="39" name="Vietovė"/>
+        <alias field="metroarea" index="40" name=""/>
+        <alias field="subregion" index="41" name=""/>
+        <alias field="region" index="42" name=""/>
+        <alias field="regionabbr" index="43" name=""/>
+        <alias field="territory" index="44" name=""/>
+        <alias field="zone" index="45" name=""/>
+        <alias field="postal" index="46" name=""/>
+        <alias field="postalext" index="47" name=""/>
+        <alias field="country" index="48" name=""/>
+        <alias field="langcode" index="49" name=""/>
+        <alias field="distance" index="50" name=""/>
+        <alias field="x" index="51" name=""/>
+        <alias field="y" index="52" name=""/>
+        <alias field="displayxma" index="53" name=""/>
+        <alias field="displayyma" index="54" name=""/>
+        <alias field="xminmap" index="55" name=""/>
+        <alias field="xmaxmap" index="56" name=""/>
+        <alias field="yminmap" index="57" name=""/>
+        <alias field="ymaxmap" index="58" name=""/>
+        <alias field="exinfo" index="59" name=""/>
+        <alias field="in_singlel" index="60" name=""/>
+        <alias field="user_adres" index="61" name=""/>
+        <alias field="user_koord" index="62" name="X_LKS"/>
+        <alias field="user_koo_1" index="63" name="Y_LKS"/>
+        <alias field="user_ptž_" index="64" name=""/>
+        <alias field="user_veikl" index="65" name="Veiklos pradžia"/>
+        <alias field="user_vei_1" index="66" name="Veiklos pabaiga"/>
+        <alias field="user_padė" index="67" name="Sąvartyno padėtis"/>
+        <alias field="user_techn" index="68" name="Pavojingumas technogeniniam faktoriui (balais)"/>
+        <alias field="user_dirvo" index="69" name="Pavojingumas dirvožemiuii (balais)"/>
+        <alias field="user_pože" index="70" name="Pavojingumas požeminiam vandeniui (balais)"/>
+        <alias field="user_pavir" index="71" name="Pavojingumas paviršiniam vandeniui (balais)"/>
+        <alias field="user_tec_1" index="72" name="Pavojingumas technogeniniam faktoriui"/>
+        <alias field="user_dir_1" index="73" name="Pavojingumas dirvožemiuii (balais)"/>
+        <alias field="user_po_1" index="74" name="Pavojingumas požeminiam vandeniui (balais)"/>
+        <alias field="user_pav_1" index="75" name="Pavojingumas paviršiniam vandeniui (balais)"/>
+        <alias field="uzdarytas_" index="76" name=""/>
+        <alias field="uzdarytopl" index="77" name=""/>
+        <alias field="ptzbuksubt" index="78" name=""/>
+        <alias field="vandens_te" index="79" name=""/>
+        <alias field="ph" index="80" name="pH"/>
+        <alias field="bendras_ki" index="81" name="Bendras kietumas"/>
+        <alias field="kadmis_µg" index="82" name="Kadmis µg"/>
+        <alias field="švinas_µ" index="83" name="Švino kiekis µg"/>
+        <alias field="chromas_µ" index="84" name="Chromo kiekis µg"/>
+        <alias field="cinkas_µg" index="85" name="Cinko kiekis µg"/>
+        <alias field="varis_µg_" index="86" name="Vario kiekis µg"/>
+        <alias field="nikelis_µ" index="87" name="Nikelio kiekis µg"/>
+        <alias field="gyvsidabri" index="88" name="Gyvsidabrio kiekis µg/l"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="DefaultValue" field="id"/>
+        <policy policy="Duplicate" field="fid_"/>
+        <policy policy="Duplicate" field="loc_name"/>
+        <policy policy="Duplicate" field="status"/>
+        <policy policy="Duplicate" field="score"/>
+        <policy policy="Duplicate" field="match_type"/>
+        <policy policy="Duplicate" field="match_addr"/>
+        <policy policy="Duplicate" field="longlabel"/>
+        <policy policy="Duplicate" field="shortlabel"/>
+        <policy policy="Duplicate" field="addr_type"/>
+        <policy policy="Duplicate" field="type"/>
+        <policy policy="Duplicate" field="placename"/>
+        <policy policy="Duplicate" field="place_addr"/>
+        <policy policy="Duplicate" field="phone"/>
+        <policy policy="Duplicate" field="url"/>
+        <policy policy="Duplicate" field="rank"/>
+        <policy policy="Duplicate" field="addbldg"/>
+        <policy policy="Duplicate" field="addnum"/>
+        <policy policy="Duplicate" field="addnumfrom"/>
+        <policy policy="Duplicate" field="addnumto"/>
+        <policy policy="Duplicate" field="addrange"/>
+        <policy policy="Duplicate" field="side"/>
+        <policy policy="Duplicate" field="stpredir"/>
+        <policy policy="Duplicate" field="stpretype"/>
+        <policy policy="Duplicate" field="stname"/>
+        <policy policy="Duplicate" field="sttype"/>
+        <policy policy="Duplicate" field="stdir"/>
+        <policy policy="Duplicate" field="bldgtype"/>
+        <policy policy="Duplicate" field="bldgname"/>
+        <policy policy="Duplicate" field="leveltype"/>
+        <policy policy="Duplicate" field="levelname"/>
+        <policy policy="Duplicate" field="unittype"/>
+        <policy policy="Duplicate" field="unitname"/>
+        <policy policy="Duplicate" field="subaddr"/>
+        <policy policy="Duplicate" field="staddr"/>
+        <policy policy="Duplicate" field="block"/>
+        <policy policy="Duplicate" field="sector"/>
+        <policy policy="Duplicate" field="nbrhd"/>
+        <policy policy="DefaultValue" field="district"/>
+        <policy policy="DefaultValue" field="city"/>
+        <policy policy="DefaultValue" field="metroarea"/>
+        <policy policy="Duplicate" field="subregion"/>
+        <policy policy="Duplicate" field="region"/>
+        <policy policy="Duplicate" field="regionabbr"/>
+        <policy policy="Duplicate" field="territory"/>
+        <policy policy="Duplicate" field="zone"/>
+        <policy policy="Duplicate" field="postal"/>
+        <policy policy="Duplicate" field="postalext"/>
+        <policy policy="Duplicate" field="country"/>
+        <policy policy="Duplicate" field="langcode"/>
+        <policy policy="DefaultValue" field="distance"/>
+        <policy policy="DefaultValue" field="x"/>
+        <policy policy="DefaultValue" field="y"/>
+        <policy policy="DefaultValue" field="displayxma"/>
+        <policy policy="Duplicate" field="displayyma"/>
+        <policy policy="Duplicate" field="xminmap"/>
+        <policy policy="Duplicate" field="xmaxmap"/>
+        <policy policy="Duplicate" field="yminmap"/>
+        <policy policy="Duplicate" field="ymaxmap"/>
+        <policy policy="DefaultValue" field="exinfo"/>
+        <policy policy="DefaultValue" field="in_singlel"/>
+        <policy policy="DefaultValue" field="user_adres"/>
+        <policy policy="DefaultValue" field="user_koord"/>
+        <policy policy="DefaultValue" field="user_koo_1"/>
+        <policy policy="DefaultValue" field="user_ptž_"/>
+        <policy policy="DefaultValue" field="user_veikl"/>
+        <policy policy="DefaultValue" field="user_vei_1"/>
+        <policy policy="DefaultValue" field="user_padė"/>
+        <policy policy="DefaultValue" field="user_techn"/>
+        <policy policy="DefaultValue" field="user_dirvo"/>
+        <policy policy="DefaultValue" field="user_pože"/>
+        <policy policy="DefaultValue" field="user_pavir"/>
+        <policy policy="DefaultValue" field="user_tec_1"/>
+        <policy policy="DefaultValue" field="user_dir_1"/>
+        <policy policy="DefaultValue" field="user_po_1"/>
+        <policy policy="DefaultValue" field="user_pav_1"/>
+        <policy policy="DefaultValue" field="uzdarytas_"/>
+        <policy policy="Duplicate" field="uzdarytopl"/>
+        <policy policy="Duplicate" field="ptzbuksubt"/>
+        <policy policy="DefaultValue" field="vandens_te"/>
+        <policy policy="DefaultValue" field="ph"/>
+        <policy policy="DefaultValue" field="bendras_ki"/>
+        <policy policy="DefaultValue" field="kadmis_µg"/>
+        <policy policy="DefaultValue" field="švinas_µ"/>
+        <policy policy="DefaultValue" field="chromas_µ"/>
+        <policy policy="DefaultValue" field="cinkas_µg"/>
+        <policy policy="DefaultValue" field="varis_µg_"/>
+        <policy policy="DefaultValue" field="nikelis_µ"/>
+        <policy policy="DefaultValue" field="gyvsidabri"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" field="id" expression=""/>
+        <default applyOnUpdate="0" field="fid_" expression=""/>
+        <default applyOnUpdate="0" field="loc_name" expression=""/>
+        <default applyOnUpdate="0" field="status" expression=""/>
+        <default applyOnUpdate="0" field="score" expression=""/>
+        <default applyOnUpdate="0" field="match_type" expression=""/>
+        <default applyOnUpdate="0" field="match_addr" expression=""/>
+        <default applyOnUpdate="0" field="longlabel" expression=""/>
+        <default applyOnUpdate="0" field="shortlabel" expression=""/>
+        <default applyOnUpdate="0" field="addr_type" expression=""/>
+        <default applyOnUpdate="0" field="type" expression=""/>
+        <default applyOnUpdate="0" field="placename" expression=""/>
+        <default applyOnUpdate="0" field="place_addr" expression=""/>
+        <default applyOnUpdate="0" field="phone" expression=""/>
+        <default applyOnUpdate="0" field="url" expression=""/>
+        <default applyOnUpdate="0" field="rank" expression=""/>
+        <default applyOnUpdate="0" field="addbldg" expression=""/>
+        <default applyOnUpdate="0" field="addnum" expression=""/>
+        <default applyOnUpdate="0" field="addnumfrom" expression=""/>
+        <default applyOnUpdate="0" field="addnumto" expression=""/>
+        <default applyOnUpdate="0" field="addrange" expression=""/>
+        <default applyOnUpdate="0" field="side" expression=""/>
+        <default applyOnUpdate="0" field="stpredir" expression=""/>
+        <default applyOnUpdate="0" field="stpretype" expression=""/>
+        <default applyOnUpdate="0" field="stname" expression=""/>
+        <default applyOnUpdate="0" field="sttype" expression=""/>
+        <default applyOnUpdate="0" field="stdir" expression=""/>
+        <default applyOnUpdate="0" field="bldgtype" expression=""/>
+        <default applyOnUpdate="0" field="bldgname" expression=""/>
+        <default applyOnUpdate="0" field="leveltype" expression=""/>
+        <default applyOnUpdate="0" field="levelname" expression=""/>
+        <default applyOnUpdate="0" field="unittype" expression=""/>
+        <default applyOnUpdate="0" field="unitname" expression=""/>
+        <default applyOnUpdate="0" field="subaddr" expression=""/>
+        <default applyOnUpdate="0" field="staddr" expression=""/>
+        <default applyOnUpdate="0" field="block" expression=""/>
+        <default applyOnUpdate="0" field="sector" expression=""/>
+        <default applyOnUpdate="0" field="nbrhd" expression=""/>
+        <default applyOnUpdate="0" field="district" expression=""/>
+        <default applyOnUpdate="0" field="city" expression=""/>
+        <default applyOnUpdate="0" field="metroarea" expression=""/>
+        <default applyOnUpdate="0" field="subregion" expression=""/>
+        <default applyOnUpdate="0" field="region" expression=""/>
+        <default applyOnUpdate="0" field="regionabbr" expression=""/>
+        <default applyOnUpdate="0" field="territory" expression=""/>
+        <default applyOnUpdate="0" field="zone" expression=""/>
+        <default applyOnUpdate="0" field="postal" expression=""/>
+        <default applyOnUpdate="0" field="postalext" expression=""/>
+        <default applyOnUpdate="0" field="country" expression=""/>
+        <default applyOnUpdate="0" field="langcode" expression=""/>
+        <default applyOnUpdate="0" field="distance" expression=""/>
+        <default applyOnUpdate="0" field="x" expression=""/>
+        <default applyOnUpdate="0" field="y" expression=""/>
+        <default applyOnUpdate="0" field="displayxma" expression=""/>
+        <default applyOnUpdate="0" field="displayyma" expression=""/>
+        <default applyOnUpdate="0" field="xminmap" expression=""/>
+        <default applyOnUpdate="0" field="xmaxmap" expression=""/>
+        <default applyOnUpdate="0" field="yminmap" expression=""/>
+        <default applyOnUpdate="0" field="ymaxmap" expression=""/>
+        <default applyOnUpdate="0" field="exinfo" expression=""/>
+        <default applyOnUpdate="0" field="in_singlel" expression=""/>
+        <default applyOnUpdate="0" field="user_adres" expression=""/>
+        <default applyOnUpdate="0" field="user_koord" expression=""/>
+        <default applyOnUpdate="0" field="user_koo_1" expression=""/>
+        <default applyOnUpdate="0" field="user_ptž_" expression=""/>
+        <default applyOnUpdate="0" field="user_veikl" expression=""/>
+        <default applyOnUpdate="0" field="user_vei_1" expression=""/>
+        <default applyOnUpdate="0" field="user_padė" expression=""/>
+        <default applyOnUpdate="0" field="user_techn" expression=""/>
+        <default applyOnUpdate="0" field="user_dirvo" expression=""/>
+        <default applyOnUpdate="0" field="user_pože" expression=""/>
+        <default applyOnUpdate="0" field="user_pavir" expression=""/>
+        <default applyOnUpdate="0" field="user_tec_1" expression=""/>
+        <default applyOnUpdate="0" field="user_dir_1" expression=""/>
+        <default applyOnUpdate="0" field="user_po_1" expression=""/>
+        <default applyOnUpdate="0" field="user_pav_1" expression=""/>
+        <default applyOnUpdate="0" field="uzdarytas_" expression=""/>
+        <default applyOnUpdate="0" field="uzdarytopl" expression=""/>
+        <default applyOnUpdate="0" field="ptzbuksubt" expression=""/>
+        <default applyOnUpdate="0" field="vandens_te" expression=""/>
+        <default applyOnUpdate="0" field="ph" expression=""/>
+        <default applyOnUpdate="0" field="bendras_ki" expression=""/>
+        <default applyOnUpdate="0" field="kadmis_µg" expression=""/>
+        <default applyOnUpdate="0" field="švinas_µ" expression=""/>
+        <default applyOnUpdate="0" field="chromas_µ" expression=""/>
+        <default applyOnUpdate="0" field="cinkas_µg" expression=""/>
+        <default applyOnUpdate="0" field="varis_µg_" expression=""/>
+        <default applyOnUpdate="0" field="nikelis_µ" expression=""/>
+        <default applyOnUpdate="0" field="gyvsidabri" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" constraints="3" field="id" notnull_strength="1" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="fid_" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="loc_name" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="status" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="score" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="match_type" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="match_addr" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="longlabel" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="shortlabel" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addr_type" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="type" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="placename" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="place_addr" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="phone" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="url" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="rank" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addbldg" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addnum" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addnumfrom" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addnumto" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="addrange" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="side" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="stpredir" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="stpretype" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="stname" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="sttype" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="stdir" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="bldgtype" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="bldgname" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="leveltype" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="levelname" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="unittype" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="unitname" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="subaddr" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="staddr" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="block" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="sector" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="nbrhd" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="district" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="city" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="metroarea" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="subregion" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="region" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="regionabbr" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="territory" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="zone" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="postal" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="postalext" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="country" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="langcode" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="distance" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="x" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="y" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="displayxma" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="displayyma" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="xminmap" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="xmaxmap" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="yminmap" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="ymaxmap" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="exinfo" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="in_singlel" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_adres" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_koord" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_koo_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_ptž_" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_veikl" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_vei_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_padė" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_techn" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_dirvo" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_pože" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_pavir" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_tec_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_dir_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_po_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="user_pav_1" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="uzdarytas_" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="uzdarytopl" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="ptzbuksubt" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="vandens_te" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="ph" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="bendras_ki" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="kadmis_µg" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="švinas_µ" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="chromas_µ" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="cinkas_µg" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="varis_µg_" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="nikelis_µ" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="gyvsidabri" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="fid_" exp=""/>
+        <constraint desc="" field="loc_name" exp=""/>
+        <constraint desc="" field="status" exp=""/>
+        <constraint desc="" field="score" exp=""/>
+        <constraint desc="" field="match_type" exp=""/>
+        <constraint desc="" field="match_addr" exp=""/>
+        <constraint desc="" field="longlabel" exp=""/>
+        <constraint desc="" field="shortlabel" exp=""/>
+        <constraint desc="" field="addr_type" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="placename" exp=""/>
+        <constraint desc="" field="place_addr" exp=""/>
+        <constraint desc="" field="phone" exp=""/>
+        <constraint desc="" field="url" exp=""/>
+        <constraint desc="" field="rank" exp=""/>
+        <constraint desc="" field="addbldg" exp=""/>
+        <constraint desc="" field="addnum" exp=""/>
+        <constraint desc="" field="addnumfrom" exp=""/>
+        <constraint desc="" field="addnumto" exp=""/>
+        <constraint desc="" field="addrange" exp=""/>
+        <constraint desc="" field="side" exp=""/>
+        <constraint desc="" field="stpredir" exp=""/>
+        <constraint desc="" field="stpretype" exp=""/>
+        <constraint desc="" field="stname" exp=""/>
+        <constraint desc="" field="sttype" exp=""/>
+        <constraint desc="" field="stdir" exp=""/>
+        <constraint desc="" field="bldgtype" exp=""/>
+        <constraint desc="" field="bldgname" exp=""/>
+        <constraint desc="" field="leveltype" exp=""/>
+        <constraint desc="" field="levelname" exp=""/>
+        <constraint desc="" field="unittype" exp=""/>
+        <constraint desc="" field="unitname" exp=""/>
+        <constraint desc="" field="subaddr" exp=""/>
+        <constraint desc="" field="staddr" exp=""/>
+        <constraint desc="" field="block" exp=""/>
+        <constraint desc="" field="sector" exp=""/>
+        <constraint desc="" field="nbrhd" exp=""/>
+        <constraint desc="" field="district" exp=""/>
+        <constraint desc="" field="city" exp=""/>
+        <constraint desc="" field="metroarea" exp=""/>
+        <constraint desc="" field="subregion" exp=""/>
+        <constraint desc="" field="region" exp=""/>
+        <constraint desc="" field="regionabbr" exp=""/>
+        <constraint desc="" field="territory" exp=""/>
+        <constraint desc="" field="zone" exp=""/>
+        <constraint desc="" field="postal" exp=""/>
+        <constraint desc="" field="postalext" exp=""/>
+        <constraint desc="" field="country" exp=""/>
+        <constraint desc="" field="langcode" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="x" exp=""/>
+        <constraint desc="" field="y" exp=""/>
+        <constraint desc="" field="displayxma" exp=""/>
+        <constraint desc="" field="displayyma" exp=""/>
+        <constraint desc="" field="xminmap" exp=""/>
+        <constraint desc="" field="xmaxmap" exp=""/>
+        <constraint desc="" field="yminmap" exp=""/>
+        <constraint desc="" field="ymaxmap" exp=""/>
+        <constraint desc="" field="exinfo" exp=""/>
+        <constraint desc="" field="in_singlel" exp=""/>
+        <constraint desc="" field="user_adres" exp=""/>
+        <constraint desc="" field="user_koord" exp=""/>
+        <constraint desc="" field="user_koo_1" exp=""/>
+        <constraint desc="" field="user_ptž_" exp=""/>
+        <constraint desc="" field="user_veikl" exp=""/>
+        <constraint desc="" field="user_vei_1" exp=""/>
+        <constraint desc="" field="user_padė" exp=""/>
+        <constraint desc="" field="user_techn" exp=""/>
+        <constraint desc="" field="user_dirvo" exp=""/>
+        <constraint desc="" field="user_pože" exp=""/>
+        <constraint desc="" field="user_pavir" exp=""/>
+        <constraint desc="" field="user_tec_1" exp=""/>
+        <constraint desc="" field="user_dir_1" exp=""/>
+        <constraint desc="" field="user_po_1" exp=""/>
+        <constraint desc="" field="user_pav_1" exp=""/>
+        <constraint desc="" field="uzdarytas_" exp=""/>
+        <constraint desc="" field="uzdarytopl" exp=""/>
+        <constraint desc="" field="ptzbuksubt" exp=""/>
+        <constraint desc="" field="vandens_te" exp=""/>
+        <constraint desc="" field="ph" exp=""/>
+        <constraint desc="" field="bendras_ki" exp=""/>
+        <constraint desc="" field="kadmis_µg" exp=""/>
+        <constraint desc="" field="švinas_µ" exp=""/>
+        <constraint desc="" field="chromas_µ" exp=""/>
+        <constraint desc="" field="cinkas_µg" exp=""/>
+        <constraint desc="" field="varis_µg_" exp=""/>
+        <constraint desc="" field="nikelis_µ" exp=""/>
+        <constraint desc="" field="gyvsidabri" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="id"/>
+          <column hidden="0" type="field" width="-1" name="fid_"/>
+          <column hidden="0" type="field" width="-1" name="loc_name"/>
+          <column hidden="0" type="field" width="-1" name="status"/>
+          <column hidden="0" type="field" width="-1" name="score"/>
+          <column hidden="0" type="field" width="-1" name="match_type"/>
+          <column hidden="0" type="field" width="-1" name="match_addr"/>
+          <column hidden="0" type="field" width="-1" name="longlabel"/>
+          <column hidden="0" type="field" width="-1" name="shortlabel"/>
+          <column hidden="0" type="field" width="-1" name="addr_type"/>
+          <column hidden="0" type="field" width="-1" name="type"/>
+          <column hidden="0" type="field" width="-1" name="placename"/>
+          <column hidden="0" type="field" width="-1" name="place_addr"/>
+          <column hidden="0" type="field" width="-1" name="phone"/>
+          <column hidden="0" type="field" width="-1" name="url"/>
+          <column hidden="0" type="field" width="-1" name="rank"/>
+          <column hidden="0" type="field" width="-1" name="addbldg"/>
+          <column hidden="0" type="field" width="-1" name="addnum"/>
+          <column hidden="0" type="field" width="-1" name="addnumfrom"/>
+          <column hidden="0" type="field" width="-1" name="addnumto"/>
+          <column hidden="0" type="field" width="-1" name="addrange"/>
+          <column hidden="0" type="field" width="-1" name="side"/>
+          <column hidden="0" type="field" width="-1" name="stpredir"/>
+          <column hidden="0" type="field" width="-1" name="stpretype"/>
+          <column hidden="0" type="field" width="-1" name="stname"/>
+          <column hidden="0" type="field" width="-1" name="sttype"/>
+          <column hidden="0" type="field" width="-1" name="stdir"/>
+          <column hidden="0" type="field" width="-1" name="bldgtype"/>
+          <column hidden="0" type="field" width="-1" name="bldgname"/>
+          <column hidden="0" type="field" width="-1" name="leveltype"/>
+          <column hidden="0" type="field" width="-1" name="levelname"/>
+          <column hidden="0" type="field" width="-1" name="unittype"/>
+          <column hidden="0" type="field" width="-1" name="unitname"/>
+          <column hidden="0" type="field" width="-1" name="subaddr"/>
+          <column hidden="0" type="field" width="-1" name="staddr"/>
+          <column hidden="0" type="field" width="-1" name="block"/>
+          <column hidden="0" type="field" width="-1" name="sector"/>
+          <column hidden="0" type="field" width="-1" name="nbrhd"/>
+          <column hidden="0" type="field" width="-1" name="district"/>
+          <column hidden="0" type="field" width="-1" name="city"/>
+          <column hidden="0" type="field" width="-1" name="metroarea"/>
+          <column hidden="0" type="field" width="-1" name="subregion"/>
+          <column hidden="0" type="field" width="-1" name="region"/>
+          <column hidden="0" type="field" width="-1" name="regionabbr"/>
+          <column hidden="0" type="field" width="-1" name="territory"/>
+          <column hidden="0" type="field" width="-1" name="zone"/>
+          <column hidden="0" type="field" width="-1" name="postal"/>
+          <column hidden="0" type="field" width="-1" name="postalext"/>
+          <column hidden="0" type="field" width="-1" name="country"/>
+          <column hidden="0" type="field" width="-1" name="langcode"/>
+          <column hidden="0" type="field" width="-1" name="distance"/>
+          <column hidden="0" type="field" width="-1" name="x"/>
+          <column hidden="0" type="field" width="-1" name="y"/>
+          <column hidden="0" type="field" width="-1" name="displayxma"/>
+          <column hidden="0" type="field" width="-1" name="displayyma"/>
+          <column hidden="0" type="field" width="-1" name="xminmap"/>
+          <column hidden="0" type="field" width="-1" name="xmaxmap"/>
+          <column hidden="0" type="field" width="-1" name="yminmap"/>
+          <column hidden="0" type="field" width="-1" name="ymaxmap"/>
+          <column hidden="0" type="field" width="-1" name="exinfo"/>
+          <column hidden="0" type="field" width="-1" name="in_singlel"/>
+          <column hidden="0" type="field" width="-1" name="user_adres"/>
+          <column hidden="0" type="field" width="-1" name="user_koord"/>
+          <column hidden="0" type="field" width="-1" name="user_koo_1"/>
+          <column hidden="0" type="field" width="-1" name="user_ptž_"/>
+          <column hidden="0" type="field" width="-1" name="user_veikl"/>
+          <column hidden="0" type="field" width="-1" name="user_vei_1"/>
+          <column hidden="0" type="field" width="-1" name="user_padė"/>
+          <column hidden="0" type="field" width="-1" name="user_techn"/>
+          <column hidden="0" type="field" width="-1" name="user_dirvo"/>
+          <column hidden="0" type="field" width="-1" name="user_pože"/>
+          <column hidden="0" type="field" width="-1" name="user_pavir"/>
+          <column hidden="0" type="field" width="-1" name="user_tec_1"/>
+          <column hidden="0" type="field" width="-1" name="user_dir_1"/>
+          <column hidden="0" type="field" width="-1" name="user_po_1"/>
+          <column hidden="0" type="field" width="-1" name="user_pav_1"/>
+          <column hidden="0" type="field" width="-1" name="uzdarytas_"/>
+          <column hidden="0" type="field" width="-1" name="uzdarytopl"/>
+          <column hidden="0" type="field" width="-1" name="ptzbuksubt"/>
+          <column hidden="0" type="field" width="-1" name="vandens_te"/>
+          <column hidden="0" type="field" width="-1" name="ph"/>
+          <column hidden="0" type="field" width="-1" name="bendras_ki"/>
+          <column hidden="0" type="field" width="-1" name="kadmis_µg"/>
+          <column hidden="0" type="field" width="-1" name="švinas_µ"/>
+          <column hidden="0" type="field" width="-1" name="chromas_µ"/>
+          <column hidden="0" type="field" width="-1" name="cinkas_µg"/>
+          <column hidden="0" type="field" width="-1" name="varis_µg_"/>
+          <column hidden="0" type="field" width="-1" name="nikelis_µ"/>
+          <column hidden="0" type="field" width="-1" name="gyvsidabri"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>tablayout</editorlayout>
+      <attributeEditorForm>
+        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+          <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+        </labelStyle>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="39" name="city">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="62" name="user_koord">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="63" name="user_koo_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="64" name="user_ptž_">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="65" name="user_veikl">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="66" name="user_vei_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="67" name="user_padė">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="68" name="user_techn">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="69" name="user_dirvo">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="70" name="user_pože">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="71" name="user_pavir">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="72" name="user_tec_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="73" name="user_dir_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="74" name="user_po_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="75" name="user_pav_1">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="80" name="ph">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="81" name="bendras_ki">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="82" name="kadmis_µg">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="83" name="švinas_µ">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="84" name="chromas_µ">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="85" name="cinkas_µg">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="86" name="varis_µg_">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="87" name="nikelis_µ">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" index="88" name="gyvsidabri">
+          <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
+            <labelFont style="" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+      </attributeEditorForm>
+      <editable>
+        <field name="addbldg" editable="1"/>
+        <field name="addnum" editable="1"/>
+        <field name="addnumfrom" editable="1"/>
+        <field name="addnumto" editable="1"/>
+        <field name="addr_type" editable="1"/>
+        <field name="addrange" editable="1"/>
+        <field name="bendras_ki" editable="1"/>
+        <field name="bldgname" editable="1"/>
+        <field name="bldgtype" editable="1"/>
+        <field name="block" editable="1"/>
+        <field name="chromas_µ" editable="1"/>
+        <field name="cinkas_µg" editable="1"/>
+        <field name="city" editable="1"/>
+        <field name="country" editable="1"/>
+        <field name="displayxma" editable="1"/>
+        <field name="displayyma" editable="1"/>
+        <field name="distance" editable="1"/>
+        <field name="district" editable="1"/>
+        <field name="exinfo" editable="1"/>
+        <field name="fid_" editable="1"/>
+        <field name="gyvsidabri" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="in_singlel" editable="1"/>
+        <field name="kadmis_µg" editable="1"/>
+        <field name="langcode" editable="1"/>
+        <field name="levelname" editable="1"/>
+        <field name="leveltype" editable="1"/>
+        <field name="loc_name" editable="1"/>
+        <field name="longlabel" editable="1"/>
+        <field name="match_addr" editable="1"/>
+        <field name="match_type" editable="1"/>
+        <field name="metroarea" editable="1"/>
+        <field name="nbrhd" editable="1"/>
+        <field name="nikelis_µ" editable="1"/>
+        <field name="ph" editable="1"/>
+        <field name="phone" editable="1"/>
+        <field name="place_addr" editable="1"/>
+        <field name="placename" editable="1"/>
+        <field name="postal" editable="1"/>
+        <field name="postalext" editable="1"/>
+        <field name="ptzbuksubt" editable="1"/>
+        <field name="rank" editable="1"/>
+        <field name="region" editable="1"/>
+        <field name="regionabbr" editable="1"/>
+        <field name="score" editable="1"/>
+        <field name="sector" editable="1"/>
+        <field name="shortlabel" editable="1"/>
+        <field name="side" editable="1"/>
+        <field name="staddr" editable="1"/>
+        <field name="status" editable="1"/>
+        <field name="stdir" editable="1"/>
+        <field name="stname" editable="1"/>
+        <field name="stpredir" editable="1"/>
+        <field name="stpretype" editable="1"/>
+        <field name="sttype" editable="1"/>
+        <field name="subaddr" editable="1"/>
+        <field name="subregion" editable="1"/>
+        <field name="territory" editable="1"/>
+        <field name="type" editable="1"/>
+        <field name="unitname" editable="1"/>
+        <field name="unittype" editable="1"/>
+        <field name="url" editable="1"/>
+        <field name="user_adres" editable="1"/>
+        <field name="user_dir_1" editable="1"/>
+        <field name="user_dirvo" editable="1"/>
+        <field name="user_koo_1" editable="1"/>
+        <field name="user_koord" editable="1"/>
+        <field name="user_padė" editable="1"/>
+        <field name="user_pav_1" editable="1"/>
+        <field name="user_pavir" editable="1"/>
+        <field name="user_po_1" editable="1"/>
+        <field name="user_pože" editable="1"/>
+        <field name="user_ptž_" editable="1"/>
+        <field name="user_tec_1" editable="1"/>
+        <field name="user_techn" editable="1"/>
+        <field name="user_vei_1" editable="1"/>
+        <field name="user_veikl" editable="1"/>
+        <field name="uzdarytas_" editable="1"/>
+        <field name="uzdarytopl" editable="1"/>
+        <field name="vandens_te" editable="1"/>
+        <field name="varis_µg_" editable="1"/>
+        <field name="x" editable="1"/>
+        <field name="xmaxmap" editable="1"/>
+        <field name="xminmap" editable="1"/>
+        <field name="y" editable="1"/>
+        <field name="ymaxmap" editable="1"/>
+        <field name="yminmap" editable="1"/>
+        <field name="zone" editable="1"/>
+        <field name="švinas_µ" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="addbldg" labelOnTop="0"/>
+        <field name="addnum" labelOnTop="0"/>
+        <field name="addnumfrom" labelOnTop="0"/>
+        <field name="addnumto" labelOnTop="0"/>
+        <field name="addr_type" labelOnTop="0"/>
+        <field name="addrange" labelOnTop="0"/>
+        <field name="bendras_ki" labelOnTop="0"/>
+        <field name="bldgname" labelOnTop="0"/>
+        <field name="bldgtype" labelOnTop="0"/>
+        <field name="block" labelOnTop="0"/>
+        <field name="chromas_µ" labelOnTop="0"/>
+        <field name="cinkas_µg" labelOnTop="0"/>
+        <field name="city" labelOnTop="0"/>
+        <field name="country" labelOnTop="0"/>
+        <field name="displayxma" labelOnTop="0"/>
+        <field name="displayyma" labelOnTop="0"/>
+        <field name="distance" labelOnTop="0"/>
+        <field name="district" labelOnTop="0"/>
+        <field name="exinfo" labelOnTop="0"/>
+        <field name="fid_" labelOnTop="0"/>
+        <field name="gyvsidabri" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="in_singlel" labelOnTop="0"/>
+        <field name="kadmis_µg" labelOnTop="0"/>
+        <field name="langcode" labelOnTop="0"/>
+        <field name="levelname" labelOnTop="0"/>
+        <field name="leveltype" labelOnTop="0"/>
+        <field name="loc_name" labelOnTop="0"/>
+        <field name="longlabel" labelOnTop="0"/>
+        <field name="match_addr" labelOnTop="0"/>
+        <field name="match_type" labelOnTop="0"/>
+        <field name="metroarea" labelOnTop="0"/>
+        <field name="nbrhd" labelOnTop="0"/>
+        <field name="nikelis_µ" labelOnTop="0"/>
+        <field name="ph" labelOnTop="0"/>
+        <field name="phone" labelOnTop="0"/>
+        <field name="place_addr" labelOnTop="0"/>
+        <field name="placename" labelOnTop="0"/>
+        <field name="postal" labelOnTop="0"/>
+        <field name="postalext" labelOnTop="0"/>
+        <field name="ptzbuksubt" labelOnTop="0"/>
+        <field name="rank" labelOnTop="0"/>
+        <field name="region" labelOnTop="0"/>
+        <field name="regionabbr" labelOnTop="0"/>
+        <field name="score" labelOnTop="0"/>
+        <field name="sector" labelOnTop="0"/>
+        <field name="shortlabel" labelOnTop="0"/>
+        <field name="side" labelOnTop="0"/>
+        <field name="staddr" labelOnTop="0"/>
+        <field name="status" labelOnTop="0"/>
+        <field name="stdir" labelOnTop="0"/>
+        <field name="stname" labelOnTop="0"/>
+        <field name="stpredir" labelOnTop="0"/>
+        <field name="stpretype" labelOnTop="0"/>
+        <field name="sttype" labelOnTop="0"/>
+        <field name="subaddr" labelOnTop="0"/>
+        <field name="subregion" labelOnTop="0"/>
+        <field name="territory" labelOnTop="0"/>
+        <field name="type" labelOnTop="0"/>
+        <field name="unitname" labelOnTop="0"/>
+        <field name="unittype" labelOnTop="0"/>
+        <field name="url" labelOnTop="0"/>
+        <field name="user_adres" labelOnTop="0"/>
+        <field name="user_dir_1" labelOnTop="0"/>
+        <field name="user_dirvo" labelOnTop="0"/>
+        <field name="user_koo_1" labelOnTop="0"/>
+        <field name="user_koord" labelOnTop="0"/>
+        <field name="user_padė" labelOnTop="0"/>
+        <field name="user_pav_1" labelOnTop="0"/>
+        <field name="user_pavir" labelOnTop="0"/>
+        <field name="user_po_1" labelOnTop="0"/>
+        <field name="user_pože" labelOnTop="0"/>
+        <field name="user_ptž_" labelOnTop="0"/>
+        <field name="user_tec_1" labelOnTop="0"/>
+        <field name="user_techn" labelOnTop="0"/>
+        <field name="user_vei_1" labelOnTop="0"/>
+        <field name="user_veikl" labelOnTop="0"/>
+        <field name="uzdarytas_" labelOnTop="0"/>
+        <field name="uzdarytopl" labelOnTop="0"/>
+        <field name="vandens_te" labelOnTop="0"/>
+        <field name="varis_µg_" labelOnTop="0"/>
+        <field name="x" labelOnTop="0"/>
+        <field name="xmaxmap" labelOnTop="0"/>
+        <field name="xminmap" labelOnTop="0"/>
+        <field name="y" labelOnTop="0"/>
+        <field name="ymaxmap" labelOnTop="0"/>
+        <field name="yminmap" labelOnTop="0"/>
+        <field name="zone" labelOnTop="0"/>
+        <field name="švinas_µ" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field reuseLastValue="0" name="addbldg"/>
+        <field reuseLastValue="0" name="addnum"/>
+        <field reuseLastValue="0" name="addnumfrom"/>
+        <field reuseLastValue="0" name="addnumto"/>
+        <field reuseLastValue="0" name="addr_type"/>
+        <field reuseLastValue="0" name="addrange"/>
+        <field reuseLastValue="0" name="bendras_ki"/>
+        <field reuseLastValue="0" name="bldgname"/>
+        <field reuseLastValue="0" name="bldgtype"/>
+        <field reuseLastValue="0" name="block"/>
+        <field reuseLastValue="0" name="chromas_µ"/>
+        <field reuseLastValue="0" name="cinkas_µg"/>
+        <field reuseLastValue="0" name="city"/>
+        <field reuseLastValue="0" name="country"/>
+        <field reuseLastValue="0" name="displayxma"/>
+        <field reuseLastValue="0" name="displayyma"/>
+        <field reuseLastValue="0" name="distance"/>
+        <field reuseLastValue="0" name="district"/>
+        <field reuseLastValue="0" name="exinfo"/>
+        <field reuseLastValue="0" name="fid_"/>
+        <field reuseLastValue="0" name="gyvsidabri"/>
+        <field reuseLastValue="0" name="id"/>
+        <field reuseLastValue="0" name="in_singlel"/>
+        <field reuseLastValue="0" name="kadmis_µg"/>
+        <field reuseLastValue="0" name="langcode"/>
+        <field reuseLastValue="0" name="levelname"/>
+        <field reuseLastValue="0" name="leveltype"/>
+        <field reuseLastValue="0" name="loc_name"/>
+        <field reuseLastValue="0" name="longlabel"/>
+        <field reuseLastValue="0" name="match_addr"/>
+        <field reuseLastValue="0" name="match_type"/>
+        <field reuseLastValue="0" name="metroarea"/>
+        <field reuseLastValue="0" name="nbrhd"/>
+        <field reuseLastValue="0" name="nikelis_µ"/>
+        <field reuseLastValue="0" name="ph"/>
+        <field reuseLastValue="0" name="phone"/>
+        <field reuseLastValue="0" name="place_addr"/>
+        <field reuseLastValue="0" name="placename"/>
+        <field reuseLastValue="0" name="postal"/>
+        <field reuseLastValue="0" name="postalext"/>
+        <field reuseLastValue="0" name="ptzbuksubt"/>
+        <field reuseLastValue="0" name="rank"/>
+        <field reuseLastValue="0" name="region"/>
+        <field reuseLastValue="0" name="regionabbr"/>
+        <field reuseLastValue="0" name="score"/>
+        <field reuseLastValue="0" name="sector"/>
+        <field reuseLastValue="0" name="shortlabel"/>
+        <field reuseLastValue="0" name="side"/>
+        <field reuseLastValue="0" name="staddr"/>
+        <field reuseLastValue="0" name="status"/>
+        <field reuseLastValue="0" name="stdir"/>
+        <field reuseLastValue="0" name="stname"/>
+        <field reuseLastValue="0" name="stpredir"/>
+        <field reuseLastValue="0" name="stpretype"/>
+        <field reuseLastValue="0" name="sttype"/>
+        <field reuseLastValue="0" name="subaddr"/>
+        <field reuseLastValue="0" name="subregion"/>
+        <field reuseLastValue="0" name="territory"/>
+        <field reuseLastValue="0" name="type"/>
+        <field reuseLastValue="0" name="unitname"/>
+        <field reuseLastValue="0" name="unittype"/>
+        <field reuseLastValue="0" name="url"/>
+        <field reuseLastValue="0" name="user_adres"/>
+        <field reuseLastValue="0" name="user_dir_1"/>
+        <field reuseLastValue="0" name="user_dirvo"/>
+        <field reuseLastValue="0" name="user_koo_1"/>
+        <field reuseLastValue="0" name="user_koord"/>
+        <field reuseLastValue="0" name="user_padė"/>
+        <field reuseLastValue="0" name="user_pav_1"/>
+        <field reuseLastValue="0" name="user_pavir"/>
+        <field reuseLastValue="0" name="user_po_1"/>
+        <field reuseLastValue="0" name="user_pože"/>
+        <field reuseLastValue="0" name="user_ptž_"/>
+        <field reuseLastValue="0" name="user_tec_1"/>
+        <field reuseLastValue="0" name="user_techn"/>
+        <field reuseLastValue="0" name="user_vei_1"/>
+        <field reuseLastValue="0" name="user_veikl"/>
+        <field reuseLastValue="0" name="uzdarytas_"/>
+        <field reuseLastValue="0" name="uzdarytopl"/>
+        <field reuseLastValue="0" name="vandens_te"/>
+        <field reuseLastValue="0" name="varis_µg_"/>
+        <field reuseLastValue="0" name="x"/>
+        <field reuseLastValue="0" name="xmaxmap"/>
+        <field reuseLastValue="0" name="xminmap"/>
+        <field reuseLastValue="0" name="y"/>
+        <field reuseLastValue="0" name="ymaxmap"/>
+        <field reuseLastValue="0" name="yminmap"/>
+        <field reuseLastValue="0" name="zone"/>
+        <field reuseLastValue="0" name="švinas_µ"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"loc_name"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="savart_export_df37c848_1349_466f_a776_6513badf5b8f"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <RenderMapTile type="bool">false</RenderMapTile>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddLayerGroupsLegendGraphic type="bool">false</WMSAddLayerGroupsLegendGraphic>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString">dominykas.sinkevicius@chgf.stud.vu.lt</WMSContactMail>
+    <WMSContactOrganization type="QString">VU</WMSContactOrganization>
+    <WMSContactPerson type="QString">Dominykas Sinkevičius</WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString">Student</WMSContactPosition>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:3346</value>
+    </WMSCrsList>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSFeatureInfoUseAttributeFormSettings type="bool">true</WMSFeatureInfoUseAttributeFormSettings>
+    <WMSFees type="QString">no conditions apply</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString">landfill_data</WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString">Sąvartynų duomenys iš PTŽ duomenų rinkinio, peržiūrėtas 2020m.
+Duomenys apie sąvartyno filtratą, jo pavojungumą aplinkai bei sunkiųjų metalų kiekius.</WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString">Sąvartynų duomenys</WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <dates>
+      <date type="Created" value="2024-11-15T12:50:13"/>
+    </dates>
+    <author>Dominykas Sinkevicius</author>
+    <creation>2024-11-15T12:50:13</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings rotation="0" UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent ymin="5971155.68896999955177307" xmax="689423.8281941267196089" ymax="6261433.61243000067770481" xmin="289530.46510587335797027">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>1304</srsid>
+        <srid>3346</srid>
+        <authid>EPSG:3346</authid>
+        <description>LKS94 / Lithuania TM</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///EDWdtu_styles.db">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings cumulativeTemporalRange="0" timeStep="1" timeStepUnit="h" frameRate="1"/>
+  <ElevationProperties>
+    <terrainProvider type="flat">
+      <TerrainProvider offset="0" scale="1"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option type="QString" value="DecimalDegrees" name="angle_format"/>
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_leading_degree_zeros"/>
+        <Option type="bool" value="false" name="show_leading_zeros"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="false" name="show_suffix"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings autoAddTrackVertices="0" destinationLayerSource="service='qgis_server_docker' sslmode=disable key='id' srid=3346 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;savart_export&quot; (geom)" destinationFollowsActiveLayer="1" destinationLayerProvider="postgres" destinationLayerName="savart_export" autoCommitFeatures="0" destinationLayer="savart_export_df37c848_1349_466f_a776_6513badf5b8f">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>
