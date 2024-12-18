@@ -44,9 +44,9 @@ function loadLayers() {
     map.addSource("wms-qgis-landfill",{
         type: "raster",
         tiles:[
-            "http://localhost/qgisserver/landfill_data?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=512&height=512&layers=landfill_data"
+            "http://localhost/qgisserver/landfill_data?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=2048&height=2048&layers=landfill_data"
         ],
-        tilesize: 512,
+        tilesize: 2048,
     });
     map.addSource("wms-qgis-vmsavkeliai",{
         type: "raster",
@@ -62,16 +62,7 @@ function loadLayers() {
         ],
         tilesize: 512,
     });
-    map.addLayer(
-        {
-            id:"wms-vmsavkeliai",
-            type: "raster",
-            source: "wms-qgis-vmsavkeliai",
-            layout: {
-                visibility: "none",
-            }
-        }
-    );
+    
     map.addLayer(
         {
             id:"wms-admsav",
@@ -82,7 +73,16 @@ function loadLayers() {
             }
         }
     );
-    
+    map.addLayer(
+        {
+            id:"wms-vmsavkeliai",
+            type: "raster",
+            source: "wms-qgis-vmsavkeliai",
+            layout: {
+                visibility: "none",
+            }
+        }
+    );
     map.addLayer(
         {
             id:"wms-landfill",
