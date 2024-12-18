@@ -64,9 +64,9 @@ function loadLayers() {
     });
     map.addLayer(
         {
-            id:"wms-landfill",
+            id:"wms-vmsavkeliai",
             type: "raster",
-            source: "wms-qgis-landfill",
+            source: "wms-qgis-vmsavkeliai",
             layout: {
                 visibility: "none",
             }
@@ -82,11 +82,12 @@ function loadLayers() {
             }
         }
     );
+    
     map.addLayer(
         {
-            id:"wms-vmsavkeliai",
+            id:"wms-landfill",
             type: "raster",
-            source: "wms-qgis-vmsavkeliai",
+            source: "wms-qgis-landfill",
             layout: {
                 visibility: "none",
             }
